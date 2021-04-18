@@ -10,6 +10,10 @@ Create a message in each case statement to be returned.
 Console.log the returned message/*
 
 
-function drinkOrder (){
-	
+function drinkOrder (size, drink){
+
+let statement = " You have ordered a " + size + drink;
+
+console.log (statement)
+
 }
